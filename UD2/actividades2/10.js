@@ -11,4 +11,4 @@ while(num != num2)
        num2 = parseInt(prompt("El número anterior es menor. Inténtelo de nuevo:"));
     }
 }
-alert("Correcto!");
+alert("Correcto!"); 
