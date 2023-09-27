@@ -1,6 +1,6 @@
-let num1 = prompt("Introduzca un número");
-let num2 = prompt("Introduzca el segundo número");
+let num1 = parseInt(prompt("Introduzca un número"));
 let op = prompt("Introduzca el operador");
+let num2 = parseInt(prompt("Introduzca el segundo número"));
 
 switch(op)
 {
@@ -8,13 +8,13 @@ switch(op)
         alert(num1 + num2);
         break;
     case "-":
-        alert(`${num1 - num2}`);
+        alert(num1 - num2);
         break;
     case "*":
-        alert(`${num1 * num2}`);
+        alert(num1 * num2);
         break;
     case "/":
-        alert(`${num1 / num2}`);
+        alert(num1 / num2);
         break;
     default:
         alert("El operador no es válido.");
